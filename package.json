@@ -5,13 +5,16 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html --no-cache",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build index.html --public-url /parcel-modules-test-case/",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "parcel-bundler": "^1.8.0"
   },
   "dependencies": {
     "autoprefixer": "^8.2.0",
+    "gh-pages": "^1.1.0",
     "node-sass": "^4.8.3",
     "postcss-modules": "^1.1.0",
     "react": "^16.2.0",
