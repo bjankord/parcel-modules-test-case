@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Button from "test-react-ui-button";
+import Button from "parcel-react-ui-button";
 import styles from "./app.scss";
 
 class App extends Component {
